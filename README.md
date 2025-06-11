@@ -19,8 +19,10 @@
 Run this command to clone the repo with all deployment files:
 
 ```bash
-git clone 
-cd minikub_tp
+git clone https://github.com/medSploit/minikub_tp.git
+cd minikube_tp
+tar -xvf minikube_tp.tar minikube_tp
+cd minikube
 ```
 This downloads the entire project including YAML files, SQL init script, and PHP file.
 
